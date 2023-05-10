@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="disappear" class="hide-section-container">
+            <div class="hide-section">
+                <button id="disappear-button" onclick="disappear()" class="close-icon-container">
+                    <span class="material-symbols-outlined">
+                        close
+                    </span>
+                </button>
+                <div class="hide-section-image-container">
+                    <img src="images/quix-logos_transparent(1).png">
+                </div>
+            </div>
+            <div class="close-links">
+                <div class="hide-section-links">
+                    <p>Resources</p>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                            </span>
+                    </a>
+                </div>
+                <div class="hide-section-links">
+                    <p>Courses</p>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                            </span>
+                    </a>
+                </div>
+                <div class="hide-section-links">
+                    <p>FAQs</p>
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            chevron_right
+                            </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <header id="remove" class="header">
+            <button onclick="appear()" class="menu-icon-container">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="logo-container">
+                <img src="images/quix-logos_transparent(1).png">
+            </div>
+        </header>
+        <main id="content" class="main">
+            <div class="first-banner">
+                <a>learn more</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
