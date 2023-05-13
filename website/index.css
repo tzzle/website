@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: lato;
+    max-width: 384px;
 }   
 
 .container {
@@ -35,8 +36,7 @@
 }
 
 .hide-section-image-container {
-    width: 84px;
-    height: 30px;
+    width: 168px;
 }
 
 .hide-section-image-container img {
@@ -81,8 +81,7 @@
 }
 
 .logo-container {
-    width: 84px;
-    height: 30px;
+    width: 168px;
 }
 
 .logo-container img {
@@ -92,13 +91,100 @@
 
 .main {
     position: absolute;
-    top: 75px;
-    padding: 10px;
+    top: 64px;
 }
 
-.first-banner {
-    background: url(images/banner1.jpg);
-    background-size: 100% 100%;
-    width: 364px;
-    height: 182px;
+.info-sec-1 img {
+    width: 385px;
+}
+
+.info-sec-1 h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.input {
+    border: 3px solid #374674;
+    border-radius: 4px;
+    width: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input input {
+    width: 300px;
+    height: 51px;
+    padding: 1px 2px 1px 16px;
+    border: none;
+    outline: none;
+}
+
+.input input::placeholder {
+    font-size: 16px;
+}
+  
+
+.search-icon-container-helper {
+    display: inline-block;
+    position: relative;
+}
+
+.search-icon-container {
+    position: relative;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #374674;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.search-icon-container a {
+    position: absolute;
+    top: 65%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+span.eyeglass {
+    font-size: 40px;
+    color: white;
+}
+
+.info-sec-2 {
+    text-align: center;
+    background: #F5F5F5;
+    margin: 32px 0;
+    padding: 25px;
+} 
+
+.info-sec-2 h3 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.info-sec-2 a {
+    display: inline-block;
+    color: white;
+    padding: 4px 14px;
+    background: #374674;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 10px;
 }
